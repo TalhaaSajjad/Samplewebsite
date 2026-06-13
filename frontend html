@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shoe Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Nafees Shoes Store</h1>
+  </header>
+
+  <section class="products">
+    <div class="card">
+      <h3>Air Max Shoes</h3>
+      <p>Price: $50</p>
+      <button onclick="order('Air Max Shoes', 50)">Order Now</button>
+    </div>
+
+    <div class="card">
+      <h3>Classic Sneakers</h3>
+      <p>Price: $40</p>
+      <button onclick="order('Classic Sneakers', 40)">Order Now</button>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
